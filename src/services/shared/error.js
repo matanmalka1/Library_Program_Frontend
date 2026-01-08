@@ -39,6 +39,24 @@ export function getApiErrorMessage(err, fallback) {
     if (typeof code === "string" && code.trim()) return code;
   }
 
+  const status = err?.response?.status ?? null;
+  if (status) {
+    const statusMessages = {
+      400: "We couldn't process your request. Please check your input and try again.",
+      401: "Your session has expired. Please sign in again.",
+      403: "You don't have permission to perform this action.",
+      404: "We couldn't find what you were looking for.",
+      409: "This action couldn't be completed because of a conflict. Please try again.",
+      422: "Some of the information provided is invalid. Please review and try again.",
+      429: "You're doing that too quickly. Please wait a moment and try again.",
+      500: "Something went wrong on our side. Please try again later.",
+      502: "The service is temporarily unavailable. Please try again later.",
+      503: "The service is temporarily unavailable. Please try again later.",
+      504: "The service is taking too long to respond. Please try again.",
+    };
+    if (statusMessages[status]) return statusMessages[status];
+  }
+
   if (err.message) return err.message;
   return fallback || "Unknown error";
 }
@@ -56,12 +74,3 @@ export default {
   getApiErrorMessage,
   toApiError,
 };
-// export const getApiErrorMessage = (error, fallback) => {
-//   if (error?.response?.data?.error?.message) {
-//     return error.response.data.error.message;
-//   }
-//   if (error?.response?.data?.message) {
-//     return error.response.data.message;
-//   }
-//   return error?.message || fallback;
-// };

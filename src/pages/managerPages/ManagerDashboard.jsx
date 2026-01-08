@@ -7,7 +7,6 @@ import { ordersService } from "../../services/OrdersService";
 import { InventoryStats } from "../../components/manager/InventoryStats/InventoryStats";
 import { InventoryTable } from "../../components/manager/InventoryTable/InventoryTable";
 import { BookFormModal } from "../../components/manager/BookFormModal/BookFormModal";
-import { AlertBanner } from "../../components/ui/AlertBanner";
 import { PageContainer } from "../../components/layout/PageContainer";
 
 export const ManagerDashboard = () => {
@@ -17,14 +16,12 @@ export const ManagerDashboard = () => {
   const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingBook, setEditingBook] = useState(null);
-  const [error, setError] = useState("");
   const [page, setPage] = useState(1);
   const pageSize = 8;
   const totalPages = Math.max(1, Math.ceil(books.length / pageSize));
   const pagedBooks = books.slice((page - 1) * pageSize, page * pageSize);
 
   const fetchData = async () => {
-    setError("");
     setLoading(true);
     try {
       const [b, o] = await Promise.all([
@@ -33,8 +30,6 @@ export const ManagerDashboard = () => {
       ]);
       setBooks(b);
       setOrders(o);
-    } catch (err) {
-      setError(err.message || "Unable to load inventory data.");
     }
     try {
       const nextCategories = await categoryService.getCategories();
@@ -64,8 +59,6 @@ export const ManagerDashboard = () => {
       try {
         await bookService.deleteBook(id);
         fetchData();
-      } catch (err) {
-        setError(err.message || "Unable to delete book.");
       }
     }
   };
@@ -80,7 +73,6 @@ export const ManagerDashboard = () => {
 
   return (
     <PageContainer className="py-12">
-      <AlertBanner message={error} className="mb-6" />
       <div className="flex items-center justify-between gap-6 mb-10 flex-wrap">
         <div>
           <h1 className="font-serif text-4xl text-slate-900 mb-2">Inventory</h1>
@@ -129,10 +121,6 @@ export const ManagerDashboard = () => {
                           e.target.value
                         );
                         fetchData();
-                      } catch (err) {
-                        setError(
-                          err.message || "Unable to update order status."
-                        );
                       }
                     }}
                     className="bg-transparent border-0 text-white text-[10px] uppercase font-bold cursor-pointer outline-none"

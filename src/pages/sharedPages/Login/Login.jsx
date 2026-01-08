@@ -10,20 +10,16 @@ const API_BASE_URL =
 export const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const { login } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError("");
     setLoading(true);
     try {
       await login(email, password);
       navigate("/");
-    } catch (err) {
-      setError(err.message || "Login failed");
     } finally {
       setLoading(false);
     }
@@ -39,7 +35,6 @@ export const Login = () => {
       <LoginFormPanel
         email={email}
         password={password}
-        error={error}
         loading={loading}
         onEmailChange={setEmail}
         onPasswordChange={setPassword}

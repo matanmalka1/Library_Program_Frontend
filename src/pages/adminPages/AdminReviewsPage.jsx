@@ -6,7 +6,6 @@ import { AdminLayout } from "./AdminLayout";
 
 export const AdminReviewsPage = () => {
   const [pendingReviews, setPendingReviews] = useState([]);
-  const [error, setError] = useState("");
   const [selectedIds, setSelectedIds] = useState(new Set());
 
   useEffect(() => {
@@ -14,7 +13,6 @@ export const AdminReviewsPage = () => {
   }, []);
 
   const fetchReviews = async () => {
-    setError("");
     try {
       const books = await bookService.getBooks({ includePendingReviews: true });
       const pending = [];
@@ -27,8 +25,6 @@ export const AdminReviewsPage = () => {
       });
       setPendingReviews(pending);
       setSelectedIds(new Set());
-    } catch (err) {
-      setError(err.message || "Unable to load pending reviews.");
     }
   };
 
@@ -36,8 +32,6 @@ export const AdminReviewsPage = () => {
     try {
       await reviewService.approveReview(bookId, reviewId);
       fetchReviews();
-    } catch (err) {
-      setError(err.message || "Unable to approve review.");
     }
   };
 
@@ -46,8 +40,6 @@ export const AdminReviewsPage = () => {
     try {
       await reviewService.deleteReview(bookId, reviewId);
       fetchReviews();
-    } catch (err) {
-      setError(err.message || "Unable to delete review.");
     }
   };
 
@@ -87,8 +79,6 @@ export const AdminReviewsPage = () => {
         )
       );
       fetchReviews();
-    } catch (err) {
-      setError(err.message || "Unable to approve selected reviews.");
     }
   };
 
@@ -102,13 +92,11 @@ export const AdminReviewsPage = () => {
         )
       );
       fetchReviews();
-    } catch (err) {
-      setError(err.message || "Unable to delete selected reviews.");
     }
   };
 
   return (
-    <AdminLayout activeTab="reviews" error={error}>
+    <AdminLayout activeTab="reviews">
       <AdminReviewsPanel
         pendingReviews={pendingReviews}
         onApprove={handleApprove}

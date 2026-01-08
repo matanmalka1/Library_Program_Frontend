@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Mail, Lock, User, ArrowRight } from "lucide-react";
-import { AlertBanner } from "../../../components/ui/AlertBanner";
 import { AuthFormPanel } from "../../../components/ui/AuthFormPanel";
 import { IconTextField } from "../../../components/ui/IconTextField";
 import { PrimaryButton } from "../../../components/ui/PrimaryButton";
@@ -10,13 +9,14 @@ export const RegisterFormPanel = ({
   lastName,
   email,
   password,
-  error,
+  confirmPassword,
   validationErrors = {},
   loading,
   onFirstNameChange,
   onLastNameChange,
   onEmailChange,
   onPasswordChange,
+  onConfirmPasswordChange,
   onSubmit,
 }) => (
   <AuthFormPanel
@@ -24,11 +24,6 @@ export const RegisterFormPanel = ({
     subtitle="Join our community of readers today."
     className="order-2"
   >
-
-    <AlertBanner
-      message={error}
-      className="mb-6 animate-[login-shake_0.2s_ease]"
-    />
 
     <form onSubmit={onSubmit} className="grid gap-5">
       <div className="grid gap-4 sm:grid-cols-2">
@@ -74,6 +69,17 @@ export const RegisterFormPanel = ({
         value={password}
         onChange={(e) => onPasswordChange(e.target.value)}
         error={validationErrors.password}
+      />
+
+      <IconTextField
+        label="Confirm Password"
+        icon={Lock}
+        type="password"
+        required
+        placeholder="Re-enter your password"
+        value={confirmPassword}
+        onChange={(e) => onConfirmPasswordChange(e.target.value)}
+        error={validationErrors.confirmPassword}
       />
 
       <p className="text-[10px] text-slate-400 leading-6 px-1 m-0">

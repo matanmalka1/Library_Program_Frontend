@@ -8,7 +8,7 @@ import { cartService } from "../../../services/CartService";
 import { CheckoutSuccess } from "./CheckoutSuccess";
 import { CheckoutForm } from "./CheckoutForm";
 import { CheckoutSummary } from "./CheckoutSummary";
-import { AlertBanner } from "../../../components/ui/AlertBanner";
+import { toast } from "react-hot-toast";
 import { PageContainer } from "../../../components/layout/PageContainer";
 import { cardPaymentSchema } from "../../../validators/checkout/card-payment-schema";
 import { checkoutShippingSchema } from "../../../validators/checkout/checkout-shipping-schema";
@@ -23,7 +23,6 @@ export const Checkout = () => {
   const [zip, setZip] = useState("");
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
-  const [error, setError] = useState("");
   const [paymentMethod, setPaymentMethod] = useState("cod"); // 'cod' | 'card'
   const [cardName, setCardName] = useState("");
   const [cardNumber, setCardNumber] = useState("");
@@ -45,7 +44,6 @@ export const Checkout = () => {
     if (!user) return;
 
     setLoading(true);
-    setError("");
     try {
       const shippingValidation = checkoutShippingSchema.safeParse({
         address,
@@ -79,7 +77,7 @@ export const Checkout = () => {
       clearCart();
       setTimeout(() => navigate("/orders"), 3000);
     } catch (err) {
-      setError(err.message || "Unable to place order.");
+      toast.error(err.message || "Unable to place order.");
     } finally {
       setLoading(false);
     }
@@ -91,7 +89,6 @@ export const Checkout = () => {
 
   return (
     <PageContainer className="py-12">
-      <AlertBanner message={error} className="mb-6" />
       <button
         onClick={() => navigate("/cart")}
         className="border-0 bg-transparent text-slate-400 font-bold text-sm inline-flex items-center gap-2 mb-10 cursor-pointer"

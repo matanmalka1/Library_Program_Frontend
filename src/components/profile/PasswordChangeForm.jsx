@@ -5,7 +5,6 @@ import { authService } from "../../services/AuthService";
 import { useAuth } from "../../context/auth/AuthContext";
 import { passwordChangeSchema } from "../../validators/profile/password-change-schema";
 import { FormField } from "../ui/FormField";
-import { FormError } from "../ui/FormError";
 import { FormSubmitButton } from "../ui/FormSubmitButton";
 
 export const PasswordChangeForm = ({ onSuccess, user }) => {
@@ -26,7 +25,6 @@ export const PasswordChangeForm = ({ onSuccess, user }) => {
     );
   }
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formError, setFormError] = useState("");
 
   const {
     register,
@@ -39,7 +37,6 @@ export const PasswordChangeForm = ({ onSuccess, user }) => {
   });
 
   const onSubmit = async (data) => {
-    setFormError("");
     setIsSubmitting(true);
 
     try {
@@ -51,8 +48,6 @@ export const PasswordChangeForm = ({ onSuccess, user }) => {
 
       onSuccess("Password changed successfully!");
       reset();
-    } catch (error) {
-      setFormError(error.message || "Failed to change password.");
     } finally {
       setIsSubmitting(false);
     }
@@ -60,8 +55,6 @@ export const PasswordChangeForm = ({ onSuccess, user }) => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
-      <FormError message={formError} />
-
       <FormField
         label="Current Password"
         error={errors.currentPassword?.message}

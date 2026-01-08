@@ -2,7 +2,6 @@ import { BookFormHeader } from "./BookFormHeader";
 import { BookFormMedia } from "./BookFormMedia";
 import { BookFormFields } from "./BookFormFields";
 import { useBookFormModal } from "./useBookFormModal";
-import { AlertBanner } from "../../ui/AlertBanner";
 
 export const BookFormModal = ({
   editingBook,
@@ -20,7 +19,6 @@ export const BookFormModal = ({
     fileInputRef,
     handleFileChange,
     onSubmit,
-    formError,
   } = useBookFormModal(editingBook, categories, { onClose, onSaved });
 
   return (
@@ -29,7 +27,6 @@ export const BookFormModal = ({
         <BookFormHeader editingBook={editingBook} onClose={onClose} />
 
         <form onSubmit={handleSubmit(onSubmit)} className="p-8 grid gap-6">
-          <AlertBanner message={formError} />
           <div className="flex flex-col gap-6 md:flex-row md:gap-8">
             <BookFormMedia
               coverImage={coverImage}

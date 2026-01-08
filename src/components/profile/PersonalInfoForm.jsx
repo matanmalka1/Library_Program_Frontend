@@ -5,13 +5,11 @@ import { authService } from "../../services/AuthService";
 import { useAuth } from "../../context/auth/AuthContext";
 import { personalInfoSchema } from "../../validators/profile/personal-info-schema";
 import { FormField } from "../ui/FormField";
-import { FormError } from "../ui/FormError";
 import { FormSubmitButton } from "../ui/FormSubmitButton";
 
 export const PersonalInfoForm = ({ user, onSuccess }) => {
   const { updateUser } = useAuth();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formError, setFormError] = useState("");
   const [saved, setSaved] = useState(false);
 
   const {
@@ -30,7 +28,6 @@ export const PersonalInfoForm = ({ user, onSuccess }) => {
   });
 
   const onSubmit = async (data) => {
-    setFormError("");
     setIsSubmitting(true);
 
     try {
@@ -44,8 +41,6 @@ export const PersonalInfoForm = ({ user, onSuccess }) => {
       reset(data);
       setSaved(true);
       setTimeout(() => setSaved(false), 3000);
-    } catch (error) {
-      setFormError(error.message || "Failed to update profile.");
     } finally {
       setIsSubmitting(false);
     }
@@ -53,8 +48,6 @@ export const PersonalInfoForm = ({ user, onSuccess }) => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
-      <FormError message={formError} />
-
       <FormField
         label="First Name"
         error={errors.firstName?.message}

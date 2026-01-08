@@ -1,4 +1,5 @@
-import { getApiErrorMessage, toApiError } from "./shared/error";
+import { toApiError } from "./shared/error";
+import { toast } from "react-hot-toast";
 import { httpClient } from "./shared/httpClient";
 
 export class BaseService {
@@ -11,7 +12,9 @@ export class BaseService {
       return await fn();
     } catch (error) {
       // Normalize into ApiError so UI can read status/code/details consistently
-      throw toApiError(error, fallback);
+      const apiError = toApiError(error, fallback);
+      toast.error(apiError.message);
+      throw apiError;
     }
   }
 

@@ -20,7 +20,6 @@ export const useBookFormModal = (
   { onClose, onSaved }
 ) => {
   const [isUploading, setIsUploading] = useState(false);
-  const [formError, setFormError] = useState("");
   const fileInputRef = useRef(null);
 
   const {
@@ -70,7 +69,6 @@ export const useBookFormModal = (
   };
 
   const onSubmit = async (data) => {
-    setFormError("");
     try {
       await bookService.saveBook({
         ...editingBook,
@@ -81,8 +79,6 @@ export const useBookFormModal = (
       });
       onSaved();
       onClose();
-    } catch (error) {
-      setFormError(error.message || "Failed to save book.");
     }
   };
 
@@ -96,6 +92,5 @@ export const useBookFormModal = (
     fileInputRef,
     handleFileChange,
     onSubmit,
-    formError,
   };
 };

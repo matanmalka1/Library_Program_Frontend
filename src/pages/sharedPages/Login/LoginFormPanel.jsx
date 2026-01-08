@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Mail, Lock, ArrowRight, Github } from "lucide-react";
-import { AlertBanner } from "../../../components/ui/AlertBanner";
 import { AuthFormPanel } from "../../../components/ui/AuthFormPanel";
 import { IconTextField } from "../../../components/ui/IconTextField";
 import { PrimaryButton } from "../../../components/ui/PrimaryButton";
@@ -8,7 +7,6 @@ import { PrimaryButton } from "../../../components/ui/PrimaryButton";
 export const LoginFormPanel = ({
   email,
   password,
-  error,
   loading,
   onEmailChange,
   onPasswordChange,
@@ -19,11 +17,6 @@ export const LoginFormPanel = ({
     title="Welcome back"
     subtitle="Sign in to continue your reading journey."
   >
-    <AlertBanner
-      message={error}
-      className="mb-6 animate-[login-shake_0.2s_ease]"
-    />
-
     <form onSubmit={onSubmit} className="grid gap-6">
       <IconTextField
         label="Email Address"

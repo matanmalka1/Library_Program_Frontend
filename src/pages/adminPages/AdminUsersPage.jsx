@@ -7,7 +7,6 @@ import { AdminLayout } from "./AdminLayout";
 export const AdminUsersPage = () => {
   const [users, setUsers] = useState([]);
   const [roleChanges, setRoleChanges] = useState({});
-  const [error, setError] = useState("");
   const { user: currentUser } = useAuth();
 
   useEffect(() => {
@@ -15,12 +14,9 @@ export const AdminUsersPage = () => {
   }, []);
 
   const fetchUsers = async () => {
-    setError("");
     try {
       const data = await usersService.getUsers();
       setUsers(data);
-    } catch (err) {
-      setError(err.message || "Unable to load users.");
     }
   };
 
@@ -39,13 +35,11 @@ export const AdminUsersPage = () => {
         return next;
       });
       fetchUsers();
-    } catch (err) {
-      setError(err.message || "Unable to update user role.");
     }
   };
 
   return (
-    <AdminLayout activeTab="users" error={error}>
+    <AdminLayout activeTab="users">
       <AdminUsersPanel
         users={users}
         currentUserId={currentUser?.id}

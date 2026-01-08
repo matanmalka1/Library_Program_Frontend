@@ -10,7 +10,7 @@ export const Register = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [validationErrors, setValidationErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const { register } = useAuth();
@@ -22,6 +22,7 @@ export const Register = () => {
       lastName,
       email,
       password,
+      confirmPassword,
     });
 
     if (validation.success) {
@@ -35,13 +36,13 @@ export const Register = () => {
       lastName: fieldErrors.lastName?.[0] || null,
       email: fieldErrors.email?.[0] || null,
       password: fieldErrors.password?.[0] || null,
+      confirmPassword: fieldErrors.confirmPassword?.[0] || null,
     });
     return false;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError("");
 
     if (!validateForm()) {
       return;
@@ -51,8 +52,6 @@ export const Register = () => {
     try {
       await register(firstName, lastName, email, password);
       navigate("/");
-    } catch (err) {
-      setError(err.message || "Registration failed");
     } finally {
       setLoading(false);
     }
@@ -65,13 +64,14 @@ export const Register = () => {
         lastName={lastName}
         email={email}
         password={password}
-        error={error}
+        confirmPassword={confirmPassword}
         validationErrors={validationErrors}
         loading={loading}
         onFirstNameChange={setFirstName}
         onLastNameChange={setLastName}
         onEmailChange={setEmail}
         onPasswordChange={setPassword}
+        onConfirmPasswordChange={setConfirmPassword}
         onSubmit={handleSubmit}
       />
       <RegisterVisual />
