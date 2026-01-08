@@ -1,0 +1,2661 @@
+{
+  "statistics": {
+    "detectionDate": "2026-01-08T23:00:55.487Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "src/pages/userPages/Wishlist/Wishlist.jsx": {
+            "lines": 65,
+            "tokens": 380,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Profile/Profile.jsx": {
+            "lines": 47,
+            "tokens": 382,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/Orders.jsx": {
+            "lines": 58,
+            "tokens": 420,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCardItems.jsx": {
+            "lines": 20,
+            "tokens": 215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCardHeader.jsx": {
+            "lines": 0,
+            "tokens": 7,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCardFooter.jsx": {
+            "lines": 54,
+            "tokens": 361,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCard.jsx": {
+            "lines": 18,
+            "tokens": 158,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/ShippingDetailsForm.jsx": {
+            "lines": 53,
+            "tokens": 376,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/PaymentMethodSelector.jsx": {
+            "lines": 48,
+            "tokens": 346,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutSummary.jsx": {
+            "lines": 47,
+            "tokens": 381,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutSuccess.jsx": {
+            "lines": 17,
+            "tokens": 93,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutForm.jsx": {
+            "lines": 36,
+            "tokens": 215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutField.jsx": {
+            "lines": 1,
+            "tokens": 13,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/Checkout.jsx": {
+            "lines": 39,
+            "tokens": 252,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CardDetailsForm.jsx": {
+            "lines": 45,
+            "tokens": 379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/CartSummary.jsx": {
+            "lines": 9,
+            "tokens": 123,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/CartItems.jsx": {
+            "lines": 43,
+            "tokens": 385,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/CartEmpty.jsx": {
+            "lines": 12,
+            "tokens": 56,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/Cart.jsx": {
+            "lines": 4,
+            "tokens": 33,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Register/RegisterFormPanel.jsx": {
+            "lines": 63,
+            "tokens": 449,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Register/Register.jsx": {
+            "lines": 12,
+            "tokens": 75,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Login/LoginFormPanel.jsx": {
+            "lines": 61,
+            "tokens": 414,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Login/Login.jsx": {
+            "lines": 6,
+            "tokens": 39,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/HomeFeatures.jsx": {
+            "lines": 0,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/HomeFeatured.jsx": {
+            "lines": 0,
+            "tokens": 11,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/Home.jsx": {
+            "lines": 0,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Books/Books.jsx": {
+            "lines": 53,
+            "tokens": 447,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/BookDetails/BookDetails.jsx": {
+            "lines": 5,
+            "tokens": 44,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/InventoryTable/InventoryTable.jsx": {
+            "lines": 76,
+            "tokens": 550,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/InventoryStats/InventoryStats.jsx": {
+            "lines": 45,
+            "tokens": 373,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/useBookFormModal.js": {
+            "lines": 95,
+            "tokens": 799,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormModal.jsx": {
+            "lines": 21,
+            "tokens": 131,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormMedia.jsx": {
+            "lines": 22,
+            "tokens": 141,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormHeader.jsx": {
+            "lines": 0,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormFields.jsx": {
+            "lines": 0,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Routing/Routing.jsx": {
+            "lines": 66,
+            "tokens": 473,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/NavbarMobileMenu.jsx": {
+            "lines": 129,
+            "tokens": 786,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/NavbarLinks.jsx": {
+            "lines": 51,
+            "tokens": 398,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/NavbarActions.jsx": {
+            "lines": 24,
+            "tokens": 178,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/Navbar.jsx": {
+            "lines": 32,
+            "tokens": 195,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/ReviewSection/ReviewSummary.jsx": {
+            "lines": 31,
+            "tokens": 235,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/ReviewSection/ReviewSection.jsx": {
+            "lines": 9,
+            "tokens": 64,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/ReviewSection/ReviewList.jsx": {
+            "lines": 16,
+            "tokens": 159,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookInfo/BookInfoMedia.jsx": {
+            "lines": 10,
+            "tokens": 102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookInfo/BookInfoDetails.jsx": {
+            "lines": 50,
+            "tokens": 343,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookInfo/BookInfo.jsx": {
+            "lines": 10,
+            "tokens": 72,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookCard/BookCardMedia.jsx": {
+            "lines": 18,
+            "tokens": 121,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookCard/BookCardBody.jsx": {
+            "lines": 33,
+            "tokens": 282,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookCard/BookCard.jsx": {
+            "lines": 18,
+            "tokens": 105,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/profile/shipping-address-schema.js": {
+            "lines": 14,
+            "tokens": 141,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/profile/profile-picture-schema.js": {
+            "lines": 11,
+            "tokens": 123,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/profile/phone-number-schema.js": {
+            "lines": 14,
+            "tokens": 107,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/profile/personal-info-schema.js": {
+            "lines": 22,
+            "tokens": 192,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/profile/password-change-schema.js": {
+            "lines": 22,
+            "tokens": 218,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/profile/bio-schema.js": {
+            "lines": 8,
+            "tokens": 83,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/manager/book-form-schema.js": {
+            "lines": 14,
+            "tokens": 244,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/checkout/card-payment-schema.js": {
+            "lines": 43,
+            "tokens": 487,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validators/auth/register-schema.js": {
+            "lines": 38,
+            "tokens": 414,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/shared/normalize.js": {
+            "lines": 99,
+            "tokens": 1235,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 24,
+            "duplicatedTokens": 220,
+            "percentage": 24.24,
+            "percentageTokens": 17.81,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/shared/localStorage.js": {
+            "lines": 34,
+            "tokens": 318,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/shared/httpClient.js": {
+            "lines": 70,
+            "tokens": 535,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/shared/error.js": {
+            "lines": 75,
+            "tokens": 747,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/auth/authUtils.js": {
+            "lines": 73,
+            "tokens": 779,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/auth/authStore.js": {
+            "lines": 83,
+            "tokens": 671,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/auth/authSession.js": {
+            "lines": 62,
+            "tokens": 568,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/managerPages/ManagerDashboard.jsx": {
+            "lines": 72,
+            "tokens": 553,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminUsersPanel.jsx": {
+            "lines": 43,
+            "tokens": 349,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminUsersPage.jsx": {
+            "lines": 4,
+            "tokens": 30,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminReviewsPanel.jsx": {
+            "lines": 76,
+            "tokens": 592,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminReviewsPage.jsx": {
+            "lines": 7,
+            "tokens": 45,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminLayout.jsx": {
+            "lines": 0,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminLayout 2.jsx": {
+            "lines": 0,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/context/cart/CartContext.jsx": {
+            "lines": 8,
+            "tokens": 19,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/context/auth/AuthContext.jsx": {
+            "lines": 0,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/IconTextField.jsx": {
+            "lines": 2,
+            "tokens": 23,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/FormField.jsx": {
+            "lines": 11,
+            "tokens": 99,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/FormError.jsx": {
+            "lines": 0,
+            "tokens": 7,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/ErrorBoundary.jsx": {
+            "lines": 0,
+            "tokens": 5,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/EmptyState.jsx": {
+            "lines": 17,
+            "tokens": 113,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/AuthFormPanel.jsx": {
+            "lines": 0,
+            "tokens": 7,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/AlertBanner.jsx": {
+            "lines": 0,
+            "tokens": 11,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/ShippingAddressForm.jsx": {
+            "lines": 35,
+            "tokens": 276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/ProfilePictureForm.jsx": {
+            "lines": 38,
+            "tokens": 243,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/PhoneNumberForm.jsx": {
+            "lines": 12,
+            "tokens": 84,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/PersonalInfoForm.jsx": {
+            "lines": 23,
+            "tokens": 164,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/PasswordChangeForm.jsx": {
+            "lines": 31,
+            "tokens": 176,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/BioForm.jsx": {
+            "lines": 25,
+            "tokens": 152,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/WishlistService.js": {
+            "lines": 33,
+            "tokens": 228,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/UsersService.js": {
+            "lines": 80,
+            "tokens": 587,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 93,
+            "percentage": 21.25,
+            "percentageTokens": 15.84,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/UploadService.js": {
+            "lines": 22,
+            "tokens": 175,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/RoleService.js": {
+            "lines": 35,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 93,
+            "percentage": 48.57,
+            "percentageTokens": 34.83,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/ReviewService.js": {
+            "lines": 33,
+            "tokens": 257,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/OrdersService.js": {
+            "lines": 57,
+            "tokens": 425,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/CategoryService.js": {
+            "lines": 15,
+            "tokens": 97,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/CartService.js": {
+            "lines": 42,
+            "tokens": 309,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/BookService.js": {
+            "lines": 52,
+            "tokens": 431,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/BaseService.js": {
+            "lines": 69,
+            "tokens": 827,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/AuthService.js": {
+            "lines": 97,
+            "tokens": 646,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types.js": {
+            "lines": 11,
+            "tokens": 82,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.jsx": {
+            "lines": 0,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3204,
+          "tokens": 25738,
+          "sources": 100,
+          "clones": 2,
+          "duplicatedLines": 29,
+          "duplicatedTokens": 203,
+          "percentage": 0.91,
+          "percentageTokens": 0.79,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "jsx": {
+        "sources": {
+          "src/pages/userPages/Wishlist/Wishlist.jsx": {
+            "lines": 120,
+            "tokens": 878,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Profile/Profile.jsx": {
+            "lines": 128,
+            "tokens": 1057,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/Orders.jsx": {
+            "lines": 137,
+            "tokens": 1179,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCardItems.jsx": {
+            "lines": 32,
+            "tokens": 334,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCardHeader.jsx": {
+            "lines": 35,
+            "tokens": 296,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCardFooter.jsx": {
+            "lines": 111,
+            "tokens": 809,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Orders/OrderCard.jsx": {
+            "lines": 97,
+            "tokens": 888,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/ShippingDetailsForm.jsx": {
+            "lines": 102,
+            "tokens": 730,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/PaymentMethodSelector.jsx": {
+            "lines": 65,
+            "tokens": 456,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutSummary.jsx": {
+            "lines": 74,
+            "tokens": 612,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutSuccess.jsx": {
+            "lines": 26,
+            "tokens": 166,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutForm.jsx": {
+            "lines": 78,
+            "tokens": 440,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CheckoutField.jsx": {
+            "lines": 18,
+            "tokens": 130,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/Checkout.jsx": {
+            "lines": 130,
+            "tokens": 1151,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Checkout/CardDetailsForm.jsx": {
+            "lines": 121,
+            "tokens": 1109,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/CartSummary.jsx": {
+            "lines": 49,
+            "tokens": 525,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/CartItems.jsx": {
+            "lines": 82,
+            "tokens": 783,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/CartEmpty.jsx": {
+            "lines": 22,
+            "tokens": 137,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/userPages/Cart/Cart.jsx": {
+            "lines": 29,
+            "tokens": 263,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Register/RegisterVisual.jsx": {
+            "lines": 33,
+            "tokens": 298,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Register/RegisterFormPanel.jsx": {
+            "lines": 106,
+            "tokens": 734,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Register/Register.jsx": {
+            "lines": 79,
+            "tokens": 682,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/OAuthCallback/OAuthCallback.jsx": {
+            "lines": 86,
+            "tokens": 654,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Login/LoginVisual.jsx": {
+            "lines": 21,
+            "tokens": 168,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Login/LoginFormPanel.jsx": {
+            "lines": 97,
+            "tokens": 656,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Login/Login.jsx": {
+            "lines": 46,
+            "tokens": 386,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/HomeHero.jsx": {
+            "lines": 51,
+            "tokens": 393,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/HomeFeatures.jsx": {
+            "lines": 37,
+            "tokens": 297,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/HomeFeatured.jsx": {
+            "lines": 24,
+            "tokens": 246,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/HomeCTA.jsx": {
+            "lines": 33,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Home/Home.jsx": {
+            "lines": 24,
+            "tokens": 230,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Help/Help.jsx": {
+            "lines": 71,
+            "tokens": 700,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/Books/Books.jsx": {
+            "lines": 186,
+            "tokens": 1782,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 19,
+            "duplicatedTokens": 154,
+            "percentage": 10.22,
+            "percentageTokens": 8.64,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/BookDetails/BookDetails.jsx": {
+            "lines": 85,
+            "tokens": 735,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/sharedPages/About/About.jsx": {
+            "lines": 69,
+            "tokens": 670,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/InventoryTable/InventoryTable.jsx": {
+            "lines": 120,
+            "tokens": 911,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/InventoryStats/InventoryStats.jsx": {
+            "lines": 63,
+            "tokens": 504,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormModal.jsx": {
+            "lines": 56,
+            "tokens": 364,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormMedia.jsx": {
+            "lines": 46,
+            "tokens": 299,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormHeader.jsx": {
+            "lines": 11,
+            "tokens": 125,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/manager/BookFormModal/BookFormFields.jsx": {
+            "lines": 92,
+            "tokens": 703,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Routing/Routing.jsx": {
+            "lines": 107,
+            "tokens": 899,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/NavbarMobileMenu.jsx": {
+            "lines": 202,
+            "tokens": 1418,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 115,
+            "duplicatedTokens": 934,
+            "percentage": 56.93,
+            "percentageTokens": 65.87,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/NavbarLinks.jsx": {
+            "lines": 148,
+            "tokens": 1244,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 96,
+            "duplicatedTokens": 780,
+            "percentage": 64.86,
+            "percentageTokens": 62.7,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/NavbarActions.jsx": {
+            "lines": 85,
+            "tokens": 691,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Navbar/Navbar.jsx": {
+            "lines": 69,
+            "tokens": 546,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Footer/Footer.jsx": {
+            "lines": 40,
+            "tokens": 427,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/ReviewSection/ReviewSummary.jsx": {
+            "lines": 64,
+            "tokens": 498,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/ReviewSection/ReviewSection.jsx": {
+            "lines": 42,
+            "tokens": 395,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/ReviewSection/ReviewList.jsx": {
+            "lines": 42,
+            "tokens": 387,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookInfo/BookInfoMedia.jsx": {
+            "lines": 20,
+            "tokens": 212,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookInfo/BookInfoFeature.jsx": {
+            "lines": 14,
+            "tokens": 145,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookInfo/BookInfoDetails.jsx": {
+            "lines": 71,
+            "tokens": 482,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookInfo/BookInfo.jsx": {
+            "lines": 41,
+            "tokens": 381,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookCard/BookCardMedia.jsx": {
+            "lines": 52,
+            "tokens": 346,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookCard/BookCardBody.jsx": {
+            "lines": 58,
+            "tokens": 448,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/book/BookCard/BookCard.jsx": {
+            "lines": 65,
+            "tokens": 502,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/managerPages/ManagerDashboard.jsx": {
+            "lines": 158,
+            "tokens": 1364,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminUsersPanel.jsx": {
+            "lines": 82,
+            "tokens": 696,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminUsersPage.jsx": {
+            "lines": 51,
+            "tokens": 456,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminReviewsPanel.jsx": {
+            "lines": 129,
+            "tokens": 967,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminReviewsPage.jsx": {
+            "lines": 111,
+            "tokens": 970,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminLayout.jsx": {
+            "lines": 11,
+            "tokens": 113,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 89,
+            "percentage": 90.91,
+            "percentageTokens": 78.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminLayout 2.jsx": {
+            "lines": 11,
+            "tokens": 113,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 89,
+            "percentage": 90.91,
+            "percentageTokens": 78.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/adminPages/AdminDashboardNav.jsx": {
+            "lines": 27,
+            "tokens": 212,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/context/cart/CartContext.jsx": {
+            "lines": 155,
+            "tokens": 1328,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/context/auth/AuthContext.jsx": {
+            "lines": 135,
+            "tokens": 1107,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/IconTextField.jsx": {
+            "lines": 30,
+            "tokens": 223,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/FormField.jsx": {
+            "lines": 36,
+            "tokens": 292,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/FormError.jsx": {
+            "lines": 10,
+            "tokens": 77,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/ErrorBoundary.jsx": {
+            "lines": 48,
+            "tokens": 332,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/EmptyState.jsx": {
+            "lines": 42,
+            "tokens": 261,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/AuthFormPanel.jsx": {
+            "lines": 31,
+            "tokens": 215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/AlertBanner.jsx": {
+            "lines": 19,
+            "tokens": 147,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/routes/PrivateRoute.jsx": {
+            "lines": 26,
+            "tokens": 258,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/ShippingAddressForm.jsx": {
+            "lines": 100,
+            "tokens": 881,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 46,
+            "duplicatedTokens": 319,
+            "percentage": 46,
+            "percentageTokens": 36.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/ProfilePictureForm.jsx": {
+            "lines": 138,
+            "tokens": 1121,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/PhoneNumberForm.jsx": {
+            "lines": 64,
+            "tokens": 548,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 24,
+            "duplicatedTokens": 209,
+            "percentage": 37.5,
+            "percentageTokens": 38.14,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/PersonalInfoForm.jsx": {
+            "lines": 78,
+            "tokens": 664,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 24,
+            "duplicatedTokens": 209,
+            "percentage": 30.77,
+            "percentageTokens": 31.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/PasswordChangeForm.jsx": {
+            "lines": 92,
+            "tokens": 708,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profile/BioForm.jsx": {
+            "lines": 81,
+            "tokens": 651,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 141,
+            "percentage": 27.16,
+            "percentageTokens": 21.66,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.jsx": {
+            "lines": 23,
+            "tokens": 193,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 5700,
+          "tokens": 46673,
+          "sources": 82,
+          "clones": 9,
+          "duplicatedLines": 183,
+          "duplicatedTokens": 1462,
+          "percentage": 3.21,
+          "percentageTokens": 3.13,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "css": {
+        "sources": {
+          "src/main.css": {
+            "lines": 94,
+            "tokens": 509,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 94,
+          "tokens": 509,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 8998,
+      "tokens": 72920,
+      "sources": 183,
+      "clones": 11,
+      "duplicatedLines": 212,
+      "duplicatedTokens": 1665,
+      "percentage": 2.36,
+      "percentageTokens": 2.28,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "jsx",
+      "lines": 20,
+      "fragment": ");\n\n  useEffect(() => {\n    let isActive = true;\n    categoryService\n      .getCategories()\n      .then((data) => {\n        if (isActive) setCategories(data);\n      })\n      .catch(() => {\n        if (isActive) setCategories([]);\n      });\n    return () => {\n      isActive = false;\n    };\n  }, []);\n\n  useEffect(() => {\n    const params = new URLSearchParams(location.search);\n    const status",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/layout/Navbar/NavbarMobileMenu.jsx",
+        "start": 19,
+        "end": 38,
+        "startLoc": {
+          "line": 19,
+          "column": 2,
+          "position": 205
+        },
+        "endLoc": {
+          "line": 38,
+          "column": 7,
+          "position": 359
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/sharedPages/Books/Books.jsx",
+        "start": 31,
+        "end": 50,
+        "startLoc": {
+          "line": 31,
+          "column": 2,
+          "position": 405
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 9,
+          "position": 559
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 38,
+      "fragment": "}) => {\n  const [categories, setCategories] = useState([]);\n  const [selectedCategory, setSelectedCategory] = useState(\"all\");\n  const [selectedOrderStatus, setSelectedOrderStatus] = useState(\"\");\n  const navigate = useNavigate();\n  const location = useLocation();\n\n  useEffect(() => {\n    let isActive = true;\n    categoryService\n      .getCategories()\n      .then((data) => {\n        if (isActive) setCategories(data);\n      })\n      .catch(() => {\n        if (isActive) setCategories([]);\n      });\n    return () => {\n      isActive = false;\n    };\n  }, []);\n\n  useEffect(() => {\n    const params = new URLSearchParams(location.search);\n    const status = params.get(\"status\");\n    if (!status) {\n      setSelectedOrderStatus(\"\");\n      return;\n    }\n    const allowed = new Set(Object.values(OrderStatus));\n    setSelectedOrderStatus(allowed.has(status) ? status : \"\");\n  }, [location.search]);\n\n  const handleCategoryChange = (value) => {\n    setSelectedCategory(value);\n    if (!value || value === \"all\") {\n      navigate(\"/books\");\n      return",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/layout/Navbar/NavbarLinks.jsx",
+        "start": 8,
+        "end": 45,
+        "startLoc": {
+          "line": 8,
+          "column": 2,
+          "position": 110
+        },
+        "endLoc": {
+          "line": 45,
+          "column": 7,
+          "position": 484
+        }
+      },
+      "secondFile": {
+        "name": "src/components/layout/Navbar/NavbarMobileMenu.jsx",
+        "start": 14,
+        "end": 51,
+        "startLoc": {
+          "line": 14,
+          "column": 1,
+          "position": 122
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 2,
+          "position": 496
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 34,
+      "fragment": "\" />\n          <Select.Icon>\n            <ChevronDown className=\"w-4 h-4 text-slate-400\" />\n          </Select.Icon>\n        </Select.Trigger>\n        <Select.Portal>\n          <Select.Content className=\"z-50 bg-white border border-slate-200 rounded-xl shadow-[0_12px_30px_rgba(15,23,42,0.12)] overflow-hidden\">\n            <Select.Viewport className=\"p-2\">\n              <Select.Item\n                value=\"all\"\n                className=\"flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-sm text-slate-700 cursor-pointer outline-none data-[highlighted]:bg-slate-50 data-[state=checked]:font-semibold\"\n              >\n                <Select.ItemText>Categories</Select.ItemText>\n                <Select.ItemIndicator>\n                  <Check className=\"w-4 h-4 text-indigo-600\" />\n                </Select.ItemIndicator>\n              </Select.Item>\n              {categories.map((category) => (\n                <Select.Item\n                  key={category}\n                  value={category}\n                  className=\"flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-sm text-slate-700 cursor-pointer outline-none data-[highlighted]:bg-slate-50 data-[state=checked]:font-semibold\"\n                >\n                  <Select.ItemText>{category}</Select.ItemText>\n                  <Select.ItemIndicator>\n                    <Check className=\"w-4 h-4 text-indigo-600\" />\n                  </Select.ItemIndicator>\n                </Select.Item>\n              ))}\n            </Select.Viewport>\n          </Select.Content>\n        </Select.Portal>\n      </Select.Root>\n      {isAuthenticated &&",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/layout/Navbar/NavbarLinks.jsx",
+        "start": 62,
+        "end": 95,
+        "startLoc": {
+          "line": 62,
+          "column": 11,
+          "position": 627
+        },
+        "endLoc": {
+          "line": 95,
+          "column": 3,
+          "position": 844
+        }
+      },
+      "secondFile": {
+        "name": "src/components/layout/Navbar/NavbarMobileMenu.jsx",
+        "start": 74,
+        "end": 107,
+        "startLoc": {
+          "line": 74,
+          "column": 19,
+          "position": 663
+        },
+        "endLoc": {
+          "line": 107,
+          "column": 2,
+          "position": 880
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 27,
+      "fragment": ">Orders</span>\n              <Select.Value placeholder=\"Status\" />\n              <Select.Icon>\n                <ChevronDown className=\"w-4 h-4 text-slate-400\" />\n              </Select.Icon>\n            </Select.Trigger>\n            <Select.Portal>\n              <Select.Content className=\"z-50 bg-white border border-slate-200 rounded-xl shadow-[0_12px_30px_rgba(15,23,42,0.12)] overflow-hidden\">\n                <Select.Viewport className=\"p-2\">\n                  {Object.values(OrderStatus).map((status) => (\n                    <Select.Item\n                      key={status}\n                      value={status}\n                      className=\"flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-sm text-slate-700 cursor-pointer outline-none data-[highlighted]:bg-slate-50 data-[state=checked]:font-semibold\"\n                    >\n                      <Select.ItemText>{status}</Select.ItemText>\n                      <Select.ItemIndicator>\n                        <Check className=\"w-4 h-4 text-indigo-600\" />\n                      </Select.ItemIndicator>\n                    </Select.Item>\n                  ))}\n                </Select.Viewport>\n              </Select.Content>\n            </Select.Portal>\n          </Select.Root>\n          {isManager && (\n            <Link ",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/layout/Navbar/NavbarLinks.jsx",
+        "start": 99,
+        "end": 125,
+        "startLoc": {
+          "line": 99,
+          "column": 2,
+          "position": 889
+        },
+        "endLoc": {
+          "line": 125,
+          "column": 2,
+          "position": 1078
+        }
+      },
+      "secondFile": {
+        "name": "src/components/layout/Navbar/NavbarMobileMenu.jsx",
+        "start": 111,
+        "end": 138,
+        "startLoc": {
+          "line": 111,
+          "column": 5,
+          "position": 919
+        },
+        "endLoc": {
+          "line": 138,
+          "column": 15,
+          "position": 1108
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 13,
+      "fragment": "= (item) => {\n  if (!item) return item;\n  const normalized = { ...item };\n  if (normalized.book) {\n    normalized.book = normalizeBook(normalized.book);\n  }\n  if (normalized.bookId) {\n    normalized.bookId = normalizeId(normalized.bookId);\n  }\n  return normalized;\n};\n\nexport const normalizeId",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/services/shared/normalize.js",
+        "start": 83,
+        "end": 95,
+        "startLoc": {
+          "line": 83,
+          "column": 2,
+          "position": 1059
+        },
+        "endLoc": {
+          "line": 95,
+          "column": 12,
+          "position": 1169
+        }
+      },
+      "secondFile": {
+        "name": "src/services/shared/normalize.js",
+        "start": 61,
+        "end": 73,
+        "startLoc": {
+          "line": 61,
+          "column": 2,
+          "position": 808
+        },
+        "endLoc": {
+          "line": 73,
+          "column": 15,
+          "position": 918
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 11,
+      "fragment": ";\n\nexport const AdminLayout = ({ activeTab, children }) => (\n  <PageContainer className=\"py-12\">\n    <div className=\"bg-white border border-slate-200 rounded-[32px] overflow-hidden min-h-[600px] flex flex-col md:flex-row\">\n      <AdminDashboardNav activeTab={activeTab} />\n\n      <main className=\"flex-1 p-8 bg-slate-50/60\">{children}</main>\n    </div>\n  </PageContainer>\n);",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/pages/adminPages/AdminLayout 2.jsx",
+        "start": 2,
+        "end": 12,
+        "startLoc": {
+          "line": 2,
+          "column": 54,
+          "position": 24
+        },
+        "endLoc": {
+          "line": 12,
+          "column": 2,
+          "position": 113
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/adminPages/AdminLayout.jsx",
+        "start": 2,
+        "end": 12,
+        "startLoc": {
+          "line": 2,
+          "column": 40,
+          "position": 24
+        },
+        "endLoc": {
+          "line": 12,
+          "column": 2,
+          "position": 113
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 13,
+      "fragment": ");\n      reset(data);\n      setSaved(true);\n      setTimeout(() => setSaved(false), 3000);\n    } finally {\n      setIsSubmitting(false);\n    }\n  };\n\n  return (\n    <form onSubmit={handleSubmit(onSubmit)} className=\"grid gap-4\">\n      <FormField\n        label=\"Phone Number",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/profile/PhoneNumberForm.jsx",
+        "start": 37,
+        "end": 49,
+        "startLoc": {
+          "line": 37,
+          "column": 37,
+          "position": 345
+        },
+        "endLoc": {
+          "line": 49,
+          "column": 13,
+          "position": 434
+        }
+      },
+      "secondFile": {
+        "name": "src/components/profile/ShippingAddressForm.jsx",
+        "start": 50,
+        "end": 62,
+        "startLoc": {
+          "line": 50,
+          "column": 41,
+          "position": 486
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 15,
+          "position": 575
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 13,
+      "fragment": "= ({ user, onSuccess }) => {\n  const { updateUser } = useAuth();\n  const [isSubmitting, setIsSubmitting] = useState(false);\n  const [saved, setSaved] = useState(false);\n\n  const {\n    register,\n    handleSubmit,\n    reset,\n    formState: { errors },\n  } = useForm({\n    mode: \"onChange\",\n    resolver: zodResolver(personalInfoSchema",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/profile/PersonalInfoForm.jsx",
+        "start": 10,
+        "end": 22,
+        "startLoc": {
+          "line": 10,
+          "column": 2,
+          "position": 111
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 19,
+          "position": 231
+        }
+      },
+      "secondFile": {
+        "name": "src/components/profile/PhoneNumberForm.jsx",
+        "start": 10,
+        "end": 22,
+        "startLoc": {
+          "line": 10,
+          "column": 2,
+          "position": 111
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 18,
+          "position": 231
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 13,
+      "fragment": ");\n      reset(data);\n      setSaved(true);\n      setTimeout(() => setSaved(false), 3000);\n    } finally {\n      setIsSubmitting(false);\n    }\n  };\n\n  return (\n    <form onSubmit={handleSubmit(onSubmit)} className=\"grid gap-4\">\n      <FormField\n        label=\"First Name",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/profile/PersonalInfoForm.jsx",
+        "start": 40,
+        "end": 52,
+        "startLoc": {
+          "line": 40,
+          "column": 32,
+          "position": 381
+        },
+        "endLoc": {
+          "line": 52,
+          "column": 11,
+          "position": 470
+        }
+      },
+      "secondFile": {
+        "name": "src/components/profile/ShippingAddressForm.jsx",
+        "start": 50,
+        "end": 62,
+        "startLoc": {
+          "line": 50,
+          "column": 41,
+          "position": 486
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 15,
+          "position": 575
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 23,
+      "fragment": ");\n      reset(data);\n      setSaved(true);\n      setTimeout(() => setSaved(false), 3000);\n    } finally {\n      setIsSubmitting(false);\n    }\n  };\n\n  return (\n    <form onSubmit={handleSubmit(onSubmit)} className=\"grid gap-4\">\n      <FormField\n        label={\n          <div className=\"flex items-center justify-between mb-2\">\n            <span className=\"text-xs uppercase tracking-[0.12em] font-bold text-slate-600 block\">\n              About You\n            </span>\n            <span className=\"text-xs text-slate-500\">\n              {bioLength}/{maxLength}\n            </span>\n          </div>\n        }\n        ",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/components/profile/BioForm.jsx",
+        "start": 41,
+        "end": 63,
+        "startLoc": {
+          "line": 41,
+          "column": 28,
+          "position": 380
+        },
+        "endLoc": {
+          "line": 63,
+          "column": 9,
+          "position": 521
+        }
+      },
+      "secondFile": {
+        "name": "src/components/profile/ShippingAddressForm.jsx",
+        "start": 50,
+        "end": 62,
+        "startLoc": {
+          "line": 50,
+          "column": 41,
+          "position": 486
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 2,
+          "position": 573
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 18,
+      "fragment": "));\n    }\n\n    return this.handlePut(\n      `/users/${userId}`,\n      { roleId },\n      {\n        normalize: (data) =>\n          normalizeUser(data?.user, {\n            normalizeRole,\n            roleIdByName: this.roleIdByName,\n          }),\n        fallback: \"Unable to update user role.\",\n      }\n    );\n  }\n\n  setRoleIdByName",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/services/RoleService.js",
+        "start": 14,
+        "end": 31,
+        "startLoc": {
+          "line": 14,
+          "column": 22,
+          "position": 138
+        },
+        "endLoc": {
+          "line": 31,
+          "column": 16,
+          "position": 231
+        }
+      },
+      "secondFile": {
+        "name": "src/services/UsersService.js",
+        "start": 64,
+        "end": 79,
+        "startLoc": {
+          "line": 64,
+          "column": 26,
+          "position": 481
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 2,
+          "position": 571
+        }
+      }
+    }
+  ]
+}
