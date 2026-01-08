@@ -79,7 +79,7 @@ export const useBookFormModal = (
       });
       onSaved();
       onClose();
-    }
+    } catch {}
   };
 
   return {

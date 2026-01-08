@@ -1,17 +1,11 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { authService } from "../../services/AuthService";
-import { useAuth } from "../../context/auth/AuthContext";
 import { bioSchema } from "../../validators/profile/bio-schema";
 import { FormField } from "../ui/FormField";
 import { FormSubmitButton } from "../ui/FormSubmitButton";
+import { useProfileUpdateForm } from "../../hooks/useProfileUpdateForm";
 
 export const BioForm = ({ user, onSuccess }) => {
-  const { updateUser } = useAuth();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [saved, setSaved] = useState(false);
-
   const {
     register,
     handleSubmit,
@@ -29,26 +23,18 @@ export const BioForm = ({ user, onSuccess }) => {
   const bioLength = watch("bio")?.length || 0;
   const maxLength = 500;
 
-  const onSubmit = async (data) => {
-    setIsSubmitting(true);
-
-    try {
-      const updatedUser = await authService.updateProfile({
+  const { isSubmitting, saved, handleSubmit: submitBio } =
+    useProfileUpdateForm({
+      submitPayload: (data) => ({
         bio: data.bio?.trim() || null,
-      });
-
-      updateUser(updatedUser);
-      onSuccess("Bio updated successfully!");
-      reset(data);
-      setSaved(true);
-      setTimeout(() => setSaved(false), 3000);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+      }),
+      successMessage: "Bio updated successfully!",
+      onSuccess,
+      reset,
+    });
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
+    <form onSubmit={handleSubmit(submitBio)} className="grid gap-4">
       <FormField
         label={
           <div className="flex items-center justify-between mb-2">

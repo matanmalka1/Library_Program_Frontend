@@ -1,25 +1,24 @@
 import { useState, useEffect } from "react";
 import { Search } from "lucide-react";
 import { bookService } from "../../../services/BookService";
-import { categoryService } from "../../../services/CategoryService";
 import { wishlistService } from "../../../services/WishlistService";
 import { BookCard } from "../../../components/book/BookCard/BookCard";
 import { useAuth } from "../../../context/auth/AuthContext";
 import { PageContainer } from "../../../components/layout/PageContainer";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useCategoryFilter } from "../../../hooks/useCategoryFilter";
 
 export const Books = () => {
   const [books, setBooks] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
-  const [cat, setCat] = useState("All");
-  const [categories, setCategories] = useState([]);
+  const { categories, selectedCategory: cat, setSelectedCategory: setCat } =
+    useCategoryFilter({ allValue: "All" });
   const [sort, setSort] = useState("latest");
   const [priceMax, setPriceMax] = useState(200);
   const [wishlistIds, setWishlistIds] = useState([]);
   const { user } = useAuth();
-  const location = useLocation();
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -29,31 +28,6 @@ export const Books = () => {
       setLoading(false);
     });
   }, []);
-
-  useEffect(() => {
-    let isActive = true;
-    categoryService
-      .getCategories()
-      .then((data) => {
-        if (isActive) setCategories(data);
-      })
-      .catch(() => {
-        if (isActive) setCategories([]);
-      });
-    return () => {
-      isActive = false;
-    };
-  }, []);
-
-  useEffect(() => {
-    const params = new URLSearchParams(location.search);
-    const selected = params.get("category");
-    if (selected) {
-      setCat(selected);
-      return;
-    }
-    setCat("All");
-  }, [location.search]);
 
   useEffect(() => {
     let res = books.filter(

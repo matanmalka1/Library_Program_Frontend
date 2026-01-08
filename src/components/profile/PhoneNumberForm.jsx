@@ -1,17 +1,11 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { authService } from "../../services/AuthService";
-import { useAuth } from "../../context/auth/AuthContext";
 import { phoneNumberSchema } from "../../validators/profile/phone-number-schema";
 import { FormField } from "../ui/FormField";
 import { FormSubmitButton } from "../ui/FormSubmitButton";
+import { useProfileUpdateForm } from "../../hooks/useProfileUpdateForm";
 
 export const PhoneNumberForm = ({ user, onSuccess }) => {
-  const { updateUser } = useAuth();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [saved, setSaved] = useState(false);
-
   const {
     register,
     handleSubmit,
@@ -25,26 +19,18 @@ export const PhoneNumberForm = ({ user, onSuccess }) => {
     },
   });
 
-  const onSubmit = async (data) => {
-    setIsSubmitting(true);
-
-    try {
-      const updatedUser = await authService.updateProfile({
+  const { isSubmitting, saved, handleSubmit: submitPhone } =
+    useProfileUpdateForm({
+      submitPayload: (data) => ({
         phoneNumber: data.phoneNumber?.trim() || null,
-      });
-
-      updateUser(updatedUser);
-      onSuccess("Phone number updated successfully!");
-      reset(data);
-      setSaved(true);
-      setTimeout(() => setSaved(false), 3000);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+      }),
+      successMessage: "Phone number updated successfully!",
+      onSuccess,
+      reset,
+    });
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
+    <form onSubmit={handleSubmit(submitPhone)} className="grid gap-4">
       <FormField
         label="Phone Number"
         error={errors.phoneNumber?.message}

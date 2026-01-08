@@ -17,7 +17,7 @@ export const AdminUsersPage = () => {
     try {
       const data = await usersService.getUsers();
       setUsers(data);
-    }
+    } catch {}
   };
 
   const handleRoleChange = (userId, role) => {
@@ -35,7 +35,7 @@ export const AdminUsersPage = () => {
         return next;
       });
       fetchUsers();
-    }
+    } catch {}
   };
 
   return (

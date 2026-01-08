@@ -1,16 +1,11 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { authService } from "../../services/AuthService";
-import { useAuth } from "../../context/auth/AuthContext";
 import { shippingAddressSchema } from "../../validators/profile/shipping-address-schema";
 import { FormField } from "../ui/FormField";
 import { FormSubmitButton } from "../ui/FormSubmitButton";
+import { useProfileUpdateForm } from "../../hooks/useProfileUpdateForm";
 
 export const ShippingAddressForm = ({ user, onSuccess }) => {
-  const { updateUser } = useAuth();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [saved, setSaved] = useState(false);
   const defaultAddress = user?.defaultShippingAddress || {};
 
   const {
@@ -30,34 +25,24 @@ export const ShippingAddressForm = ({ user, onSuccess }) => {
     },
   });
 
-  const onSubmit = async (data) => {
-    setIsSubmitting(true);
-
-    try {
-      // Check if all fields are empty or whitespace
-      const isEmpty =
-        !data.street?.trim() &&
-        !data.city?.trim() &&
-        !data.state?.trim() &&
-        !data.zip?.trim() &&
-        !data.country?.trim();
-
-      const updatedUser = await authService.updateProfile({
-        shippingAddress: isEmpty ? null : data,
-      });
-
-      updateUser(updatedUser);
-      onSuccess("Shipping address updated successfully!");
-      reset(data);
-      setSaved(true);
-      setTimeout(() => setSaved(false), 3000);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+  const { isSubmitting, saved, handleSubmit: submitAddress } =
+    useProfileUpdateForm({
+      submitPayload: (data) => {
+        const isEmpty =
+          !data.street?.trim() &&
+          !data.city?.trim() &&
+          !data.state?.trim() &&
+          !data.zip?.trim() &&
+          !data.country?.trim();
+        return { shippingAddress: isEmpty ? null : data };
+      },
+      successMessage: "Shipping address updated successfully!",
+      onSuccess,
+      reset,
+    });
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
+    <form onSubmit={handleSubmit(submitAddress)} className="grid gap-4">
       <FormField
         label="Street Address"
         error={errors.street?.message}

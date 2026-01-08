@@ -30,14 +30,15 @@ export const ManagerDashboard = () => {
       ]);
       setBooks(b);
       setOrders(o);
-    }
+    } catch {}
     try {
       const nextCategories = await categoryService.getCategories();
       setCategories(nextCategories);
     } catch {
       setCategories([]);
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   useEffect(() => {
@@ -59,7 +60,7 @@ export const ManagerDashboard = () => {
       try {
         await bookService.deleteBook(id);
         fetchData();
-      }
+      } catch {}
     }
   };
 
@@ -121,7 +122,7 @@ export const ManagerDashboard = () => {
                           e.target.value
                         );
                         fetchData();
-                      }
+                      } catch {}
                     }}
                     className="bg-transparent border-0 text-white text-[10px] uppercase font-bold cursor-pointer outline-none"
                   >

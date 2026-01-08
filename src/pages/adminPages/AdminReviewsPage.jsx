@@ -25,14 +25,14 @@ export const AdminReviewsPage = () => {
       });
       setPendingReviews(pending);
       setSelectedIds(new Set());
-    }
+    } catch {}
   };
 
   const handleApprove = async (bookId, reviewId) => {
     try {
       await reviewService.approveReview(bookId, reviewId);
       fetchReviews();
-    }
+    } catch {}
   };
 
   const handleDelete = async (bookId, reviewId) => {
@@ -40,7 +40,7 @@ export const AdminReviewsPage = () => {
     try {
       await reviewService.deleteReview(bookId, reviewId);
       fetchReviews();
-    }
+    } catch {}
   };
 
   const selectedEntries = useMemo(() => {
@@ -79,7 +79,7 @@ export const AdminReviewsPage = () => {
         )
       );
       fetchReviews();
-    }
+    } catch {}
   };
 
   const handleBulkDelete = async () => {
@@ -92,7 +92,7 @@ export const AdminReviewsPage = () => {
         )
       );
       fetchReviews();
-    }
+    } catch {}
   };
 
   return (

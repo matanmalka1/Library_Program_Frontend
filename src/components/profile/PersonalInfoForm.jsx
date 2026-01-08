@@ -1,17 +1,11 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { authService } from "../../services/AuthService";
-import { useAuth } from "../../context/auth/AuthContext";
 import { personalInfoSchema } from "../../validators/profile/personal-info-schema";
 import { FormField } from "../ui/FormField";
 import { FormSubmitButton } from "../ui/FormSubmitButton";
+import { useProfileUpdateForm } from "../../hooks/useProfileUpdateForm";
 
 export const PersonalInfoForm = ({ user, onSuccess }) => {
-  const { updateUser } = useAuth();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [saved, setSaved] = useState(false);
-
   const {
     register,
     handleSubmit,
@@ -27,27 +21,19 @@ export const PersonalInfoForm = ({ user, onSuccess }) => {
     },
   });
 
-  const onSubmit = async (data) => {
-    setIsSubmitting(true);
-
-    try {
-      const updatedUser = await authService.updateProfile({
+  const { isSubmitting, saved, handleSubmit: submitProfile } =
+    useProfileUpdateForm({
+      submitPayload: (data) => ({
         firstName: data.firstName.trim(),
         lastName: data.lastName.trim(),
-      });
-
-      updateUser(updatedUser);
-      onSuccess("Profile updated successfully!");
-      reset(data);
-      setSaved(true);
-      setTimeout(() => setSaved(false), 3000);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+      }),
+      successMessage: "Profile updated successfully!",
+      onSuccess,
+      reset,
+    });
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
+    <form onSubmit={handleSubmit(submitProfile)} className="grid gap-4">
       <FormField
         label="First Name"
         error={errors.firstName?.message}
