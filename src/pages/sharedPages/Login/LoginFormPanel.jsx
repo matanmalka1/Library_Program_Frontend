@@ -63,11 +63,11 @@ export const LoginFormPanel = ({
       </div>
     </div>
 
-    <div className="flex gap-4">
+    <div className="grid gap-4 sm:grid-cols-3">
       <button
         type="button"
         onClick={() => onOAuthLogin("google")}
-        className="flex-1 inline-flex items-center justify-center gap-2 px-3 py-3 border border-slate-200 rounded-2xl bg-white font-bold text-[13px] text-slate-700 cursor-pointer transition hover:bg-slate-50"
+        className="inline-flex items-center justify-center gap-2 px-3 py-3 border border-slate-200 rounded-2xl bg-white font-bold text-[13px] text-slate-700 cursor-pointer transition hover:bg-slate-50"
       >
         <img
           src="https://www.svgrepo.com/show/475656/google-color.svg"
@@ -79,9 +79,21 @@ export const LoginFormPanel = ({
       <button
         type="button"
         onClick={() => onOAuthLogin("github")}
-        className="flex-1 inline-flex items-center justify-center gap-2 px-3 py-3 border border-slate-200 rounded-2xl bg-white font-bold text-[13px] text-slate-700 cursor-pointer transition hover:bg-slate-50"
+        className="inline-flex items-center justify-center gap-2 px-3 py-3 border border-slate-200 rounded-2xl bg-white font-bold text-[13px] text-slate-700 cursor-pointer transition hover:bg-slate-50"
       >
         <Github className="w-5 h-5" /> GitHub
+      </button>
+      <button
+        type="button"
+        onClick={() => onOAuthLogin("facebook")}
+        className="inline-flex items-center justify-center gap-2 px-3 py-3 border border-slate-200 rounded-2xl bg-white font-bold text-[13px] text-slate-700 cursor-pointer transition hover:bg-slate-50"
+      >
+        <img
+          src="https://www.svgrepo.com/show/475647/facebook-color.svg"
+          className="w-5 h-5"
+          alt="Facebook"
+        />{" "}
+        Facebook
       </button>
     </div>
 

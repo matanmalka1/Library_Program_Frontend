@@ -54,7 +54,7 @@ export const normalizeUser = (user, { normalizeRole, roleIdByName } = {}) => {
     normalized.name = `${normalized.firstName || ""} ${normalized.lastName || ""}`.trim();
   }
   // Check if user authenticated via OAuth
-  normalized.isOAuthUser = !!(normalized.oauth?.google?.id || normalized.oauth?.github?.id);
+  normalized.isOAuthUser = !!(normalized.oauth?.google?.id || normalized.oauth?.github?.id || normalized.oauth?.facebook?.id);
   return normalized;
 };
 

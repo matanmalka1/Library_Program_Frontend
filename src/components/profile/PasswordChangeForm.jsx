@@ -19,7 +19,7 @@ export const PasswordChangeForm = ({ onSuccess, user }) => {
           <strong>Password changes not available</strong>
         </p>
         <p className="text-xs text-blue-700">
-          You're signed in with a social account (Google/GitHub). To set a password for direct email login, please contact support.
+          You're signed in with a social account (Google/GitHub/Facebook). To set a password for direct email login, please contact support.
         </p>
       </div>
     );
