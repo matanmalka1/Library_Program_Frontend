@@ -75,13 +75,6 @@ export const NavbarMobileMenu = ({
           >
             Wishlist
           </Link>
-          <button
-            onClick={onLogout}
-            className="border-0 bg-transparent text-red-600 text-lg font-semibold text-left cursor-pointer p-0"
-            type="button"
-          >
-            Logout
-          </button>
         </>
       ) : (
         <Link
@@ -106,6 +99,15 @@ export const NavbarMobileMenu = ({
       >
         Help
       </Link>
+      {isAuthenticated && (
+        <button
+          onClick={onLogout}
+          className="border-0 bg-transparent text-red-600 text-lg font-semibold text-left cursor-pointer p-0"
+          type="button"
+        >
+          Logout
+        </button>
+      )}
     </div>
   );
 };
