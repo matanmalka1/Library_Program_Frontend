@@ -61,6 +61,7 @@ export const Navbar = () => {
           isAuthenticated={isAuthenticated}
           isManager={isManager}
           isAdmin={isAdmin}
+          totalItems={totalItems}
           onLogout={handleLogout}
           onNavigate={() => setIsMenuOpen(false)}
         />

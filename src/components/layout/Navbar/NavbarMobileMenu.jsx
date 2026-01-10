@@ -6,6 +6,7 @@ export const NavbarMobileMenu = ({
   isAuthenticated,
   isManager,
   isAdmin,
+  totalItems,
   onLogout,
   onNavigate,
 }) => {
@@ -74,6 +75,18 @@ export const NavbarMobileMenu = ({
             onClick={onNavigate}
           >
             Wishlist
+          </Link>
+          <Link
+            to="/cart"
+            className="text-slate-700 no-underline text-lg font-medium flex items-center justify-between"
+            onClick={onNavigate}
+          >
+            <span>Cart</span>
+            {totalItems > 0 && (
+              <span className="min-w-[24px] h-6 px-2 rounded-full bg-indigo-600 text-white text-xs font-semibold flex items-center justify-center">
+                {totalItems}
+              </span>
+            )}
           </Link>
         </>
       ) : (
