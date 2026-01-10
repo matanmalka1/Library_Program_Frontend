@@ -20,8 +20,8 @@ export const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-slate-200">
-      <div className="max-w-[1120px] mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-16 gap-4">
+      <div className="max-w-[1400px] mx-auto px-4 lg:px-6">
+        <div className="flex items-center justify-between h-16 gap-3">
           <Link to="/" className="inline-flex items-center gap-2 no-underline">
             <BookOpen className="w-8 h-8 text-indigo-600" />
             <span className="text-xl font-bold text-slate-800 font-serif tracking-[-0.01em]">

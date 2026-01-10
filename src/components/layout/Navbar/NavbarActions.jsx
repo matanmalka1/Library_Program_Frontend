@@ -25,7 +25,7 @@ export const NavbarActions = ({
   const profilePicture = user?.profilePicture;
 
   return (
-    <div className="hidden md:flex items-center gap-4">
+    <div className="hidden md:flex items-center gap-3">
       <Link to="/wishlist" className="relative p-2 text-slate-500 transition-colors hover:text-red-500">
         <Heart className="w-5 h-5" />
       </Link>
@@ -38,7 +38,7 @@ export const NavbarActions = ({
         )}
       </Link>
       {isAuthenticated ? (
-        <div className="flex items-center gap-4 pl-4 border-l border-slate-200">
+        <div className="flex items-center gap-3 pl-4 border-l border-slate-200">
           <div className="w-9 h-9 rounded-full bg-slate-100 border border-slate-200 overflow-hidden flex items-center justify-center">
             {profilePicture ? (
               <img
