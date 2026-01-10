@@ -1,5 +1,6 @@
 import { normalizeUser, normalizeRole } from "./shared/normalize";
 import { BaseService } from "./BaseService";
+import { updateUserRoleRequest } from "./shared/userRole";
 
 class UsersServiceClass extends BaseService {
   constructor() {
@@ -59,22 +60,14 @@ class UsersServiceClass extends BaseService {
   }
 
   updateUserRole(userId, roleName) {
-    const roleId = this.roleIdByName.get(roleName);
-    if (!roleId) {
-      return Promise.reject(new Error("Role mapping not found."));
-    }
-    return this.handlePut(
-      `/users/${userId}`,
-      { roleId },
-      {
-        normalize: (data) =>
-          normalizeUser(data?.user, {
-            normalizeRole,
-            roleIdByName: this.roleIdByName,
-          }),
-        fallback: "Unable to update user role.",
-      }
-    );
+    return updateUserRoleRequest({
+      service: this,
+      userId,
+      role: roleName,
+      roleIdByName: this.roleIdByName,
+      missingRoleMessage: "Role mapping not found.",
+      normalizeRoleInput: false,
+    });
   }
 }
 

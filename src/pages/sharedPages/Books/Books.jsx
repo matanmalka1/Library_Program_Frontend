@@ -5,7 +5,7 @@ import { wishlistService } from "../../../services/WishlistService";
 import { BookCard } from "../../../components/book/BookCard/BookCard";
 import { useAuth } from "../../../context/auth/AuthContext";
 import { PageContainer } from "../../../components/layout/PageContainer";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useCategoryFilter } from "../../../hooks/useCategoryFilter";
 
 export const Books = () => {
@@ -20,6 +20,7 @@ export const Books = () => {
   const [wishlistIds, setWishlistIds] = useState([]);
   const { user } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     bookService.getBooks().then((b) => {
@@ -28,6 +29,12 @@ export const Books = () => {
       setLoading(false);
     });
   }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const nextSearch = params.get("search") || "";
+    setSearch((prev) => (prev === nextSearch ? prev : nextSearch));
+  }, [location.search]);
 
   useEffect(() => {
     let res = books.filter(

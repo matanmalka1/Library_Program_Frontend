@@ -58,7 +58,7 @@ export const normalizeUser = (user, { normalizeRole, roleIdByName } = {}) => {
   return normalized;
 };
 
-export const normalizeOrderItem = (item) => {
+const normalizeBookLineItem = (item) => {
   if (!item) return item;
   const normalized = { ...item };
   if (normalized.book) {
@@ -68,6 +68,10 @@ export const normalizeOrderItem = (item) => {
     normalized.bookId = normalizeId(normalized.bookId);
   }
   return normalized;
+};
+
+export const normalizeOrderItem = (item) => {
+  return normalizeBookLineItem(item);
 };
 
 export const normalizeOrder = (order) => {
@@ -81,15 +85,7 @@ export const normalizeOrder = (order) => {
 };
 
 export const normalizeCartItem = (item) => {
-  if (!item) return item;
-  const normalized = { ...item };
-  if (normalized.book) {
-    normalized.book = normalizeBook(normalized.book);
-  }
-  if (normalized.bookId) {
-    normalized.bookId = normalizeId(normalized.bookId);
-  }
-  return normalized;
+  return normalizeBookLineItem(item);
 };
 
 export const normalizeId = (value) => {

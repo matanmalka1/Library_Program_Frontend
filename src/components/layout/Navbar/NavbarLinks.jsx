@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { CategorySelect, OrderStatusSelect } from "./NavbarSelects";
 import { useNavbarFilters } from "./useNavbarFilters";
 
@@ -11,11 +11,18 @@ export const NavbarLinks = ({ isAuthenticated, isManager, isAdmin }) => {
     handleOrderStatusChange,
   } = useNavbarFilters();
 
+  const getLinkClassName = ({ isActive }) =>
+    `font-medium no-underline transition-colors ${
+      isActive
+        ? "text-indigo-600 font-semibold"
+        : "text-slate-600 hover:text-indigo-600"
+    }`;
+
   return (
     <div className="hidden md:flex items-center gap-6">
-      <Link to="/books" className="text-slate-600 font-medium no-underline transition-colors hover:text-indigo-600">
+      <NavLink to="/books" className={getLinkClassName}>
         Browse
-      </Link>
+      </NavLink>
       <CategorySelect
         categories={categories}
         value={selectedCategory}
@@ -32,28 +39,28 @@ export const NavbarLinks = ({ isAuthenticated, isManager, isAdmin }) => {
             triggerClassName="inline-flex items-center gap-2 text-sm font-semibold text-slate-700 bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 outline-none cursor-pointer transition hover:border-slate-300 focus:ring-2 focus:ring-indigo-200 focus:border-indigo-300"
           />
           {isManager && (
-            <Link to="/manager" className="text-slate-600 font-medium no-underline transition-colors hover:text-indigo-600">
+            <NavLink to="/manager" className={getLinkClassName}>
               Inventory
-            </Link>
+            </NavLink>
           )}
           {isAdmin && (
             <>
-              <Link to="/admin/reviews" className="text-slate-600 font-medium no-underline transition-colors hover:text-indigo-600">
+              <NavLink to="/admin/reviews" className={getLinkClassName}>
                 Reviews
-              </Link>
-              <Link to="/admin/users" className="text-slate-600 font-medium no-underline transition-colors hover:text-indigo-600">
+              </NavLink>
+              <NavLink to="/admin/users" className={getLinkClassName}>
                 Controls
-              </Link>
+              </NavLink>
             </>
           )}
         </>
       )}
-      <Link to="/about" className="text-slate-600 font-medium no-underline transition-colors hover:text-indigo-600">
+      <NavLink to="/about" className={getLinkClassName}>
         About
-      </Link>
-      <Link to="/help" className="text-slate-600 font-medium no-underline transition-colors hover:text-indigo-600">
+      </NavLink>
+      <NavLink to="/help" className={getLinkClassName}>
         Help
-      </Link>
+      </NavLink>
     </div>
   );
 };

@@ -1,5 +1,5 @@
-import { normalizeUser, normalizeRole } from "./shared/normalize";
 import { BaseService } from "./BaseService";
+import { updateUserRoleRequest } from "./shared/userRole";
 
 class RoleServiceClass extends BaseService {
   constructor() {
@@ -8,24 +8,14 @@ class RoleServiceClass extends BaseService {
   }
 
   updateUserRole(userId, role) {
-    const normalizedRole = normalizeRole(role);
-    const roleId = this.roleIdByName.get(normalizedRole) || null;
-    if (!roleId) {
-      return Promise.reject(new Error("Role not available."));
-    }
-
-    return this.handlePut(
-      `/users/${userId}`,
-      { roleId },
-      {
-        normalize: (data) =>
-          normalizeUser(data?.user, {
-            normalizeRole,
-            roleIdByName: this.roleIdByName,
-          }),
-        fallback: "Unable to update user role.",
-      }
-    );
+    return updateUserRoleRequest({
+      service: this,
+      userId,
+      role,
+      roleIdByName: this.roleIdByName,
+      missingRoleMessage: "Role not available.",
+      normalizeRoleInput: true,
+    });
   }
 
   setRoleIdByName(map) {
