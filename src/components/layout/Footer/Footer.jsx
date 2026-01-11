@@ -18,6 +18,8 @@ export const Footer = () => {
             <li><Link to="/about" className="text-inherit no-underline transition-colors hover:text-indigo-300">Our Story</Link></li>
             <li><Link to="/books" className="text-inherit no-underline transition-colors hover:text-indigo-300">Latest Collections</Link></li>
             <li><a href="#" className="text-inherit no-underline transition-colors hover:text-indigo-300">Membership</a></li>
+            <li><Link to="/privacy-policy" className="text-inherit no-underline transition-colors hover:text-indigo-300">Privacy Policy</Link></li>
+            <li><Link to="/data-deletion" className="text-inherit no-underline transition-colors hover:text-indigo-300">Data Deletion</Link></li>
           </ul>
         </div>
         <div>

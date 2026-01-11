@@ -15,6 +15,8 @@ import { Help } from "../../../pages/sharedPages/Help/Help";
 import { Login } from "../../../pages/sharedPages/Login/Login";
 import { Register } from "../../../pages/sharedPages/Register/Register";
 import { OAuthCallback } from "../../../pages/sharedPages/OAuthCallback/OAuthCallback";
+import { PrivacyPolicy } from "../../../pages/sharedPages/PrivacyPolicy/PrivacyPolicy";
+import { DataDeletion } from "../../../pages/sharedPages/DataDeletion/DataDeletion";
 import { Cart } from "../../../pages/userPages/Cart/Cart";
 import { Wishlist } from "../../../pages/userPages/Wishlist/Wishlist";
 import { Checkout } from "../../../pages/userPages/Checkout/Checkout";
@@ -35,6 +37,8 @@ export const App = () => (
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/help" element={<Help />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/data-deletion" element={<DataDeletion />} />
             <Route path="/books" element={<Books />} />
             <Route path="/books/:id" element={<DetailsPage />} />
             <Route path="/login" element={<Login />} />
