@@ -1,3 +1,4 @@
+import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
@@ -19,5 +20,5 @@ root.render(
         <App />
       </BrowserRouter>
     </ErrorBoundary>
-  </StrictMode>
+  </StrictMode>,
 );
