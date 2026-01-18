@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
@@ -13,12 +13,12 @@ if (!rootElement) {
 
 const root = ReactDOM.createRoot(rootElement);
 root.render(
-  <StrictMode>
+  <React.StrictMode>
     <ErrorBoundary>
       <BrowserRouter>
         <Toaster position="top-right" toastOptions={{ duration: 4000 }} />
         <App />
       </BrowserRouter>
     </ErrorBoundary>
-  </StrictMode>,
+  </React.StrictMode>,
 );
